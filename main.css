@@ -120,7 +120,7 @@ background-color: #222;
     
 }
 
-#logo>img{
+#logo>a>img{
     height:30px;
     width: 30px;
     display: inline-block;
