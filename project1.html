@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sajal Chaplot</title>
+    <link rel="shortcut icon" href="img/title%20logo.jpg" type="image/jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main - Copy.css">
+    
+    <!-- ===================== BOOTSTRAP CSS ======================== -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">  
+    
+    
+    <!-- ===================== BOOTSTRAP JS ======================== -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- ===================== ANGULAR JS ======================== -->
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+    
+<style>
+    #cover-image{
+    background-image: url(img/project2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 50% ; 
+    height:80%;
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-bottom:0px;
+    z-index: 1;
+    overflow:hidden;
+    position: absolute;
+    top:10%;
+    right:10px;        
+    }    
+</style>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar" style="position:fixed" >
+       <div id="nav-content">
+            <div id="logo">
+                <img src="img/title%20logo.jpg" alt="logo">
+            </div>
+            <div id="links">
+                <ul>
+                    <a href="#work"><li>WORK</li></a>
+                    <a href="#contact"><li>CONTACT</li></a>
+                    <a href="CV_Sajal.pdf" target="_blank"><li>RESUME</li></a>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container" id="banner">
+        <div id="description" class="col-md-7">
+            <h1 style="font-family:roboto slab;font-weight:900">Infosys Limited</h1>
+            <p style="text-align:justify;font-size:21px">At Infosys, I had the opportunity to work on multiple projects in domains of user research, interaction design, and request for proposals. </p>
+           <!-- <button type="button" class="button" > MY WORK </button> -->
+        </div>
+        
+        
+        <div id="cover-image" class="col-md-5">
+           <!-- <img src="img/IMG_3928.png" alt=""> -->
+        </div>
+    </div>
+    
+   <div id="projectdetail" class="container-fluid" style="background-color:#222">
+       <img src="img/Infosys%20Portfolio.jpg" alt="">
+       
+       <br><br><br><br>
+       
+       <div id="otherwork" class="container">
+       <h3 style="color:white">Other Projects</h3>
+       <br>
+       <div class="row slideanim">
+           <div class="col-md-4">
+               <a href="" style="background-image:url(img/1.png)" alt=""> </a>
+           </div>
+           
+           <div class="col-md-4">
+               <a href="" style="background-image:url(img/1.png)" alt=""> </a>
+           </div>
+           
+           <div class="col-md-4">
+               <a href="" style="background-image:url(img/1.png)" alt=""> </a>
+           </div>           
+       </div>
+       <br><br><br><br>       
+   </div>
+   
+   </div>
+   
+   <footer>
+       <div class="container" style="padding:10px auto;height:auto">
+            <span style="padding:5px"><img src="img/outline-copyright-24px.svg" style="color:#222;width:20px;height:20px;vertical-align:center"> Sajal Chaplot 2019</span>
+            <span style="padding:3px;float:right;cursor:pointer;border-bottom: 3px solid #E74D4D" onclick="sscrol()" >Back to Top</span>
+        </div>
+   </footer>
+   
+   
+  
+ 
+
+
+<script>
+    $(initialize);
+    $(window).scroll(function() {
+        
+        
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    var ps = $('#ps').scrollTop(); 
+    var contact = $('#contact').scrollTop();
+    if (pos < winTop + 400) {
+      $(this).addClass("slide");
+        
+        if(ps < winTop - 500){
+            $('#ps').addClass('ps-fixed');
+        }
+        
+    }
+  });
+}); 
+    
+function sscrol(){
+       var interval = setInterval(smoothscroll,24);
+        function smoothscroll(){window.scrollBy(0,-400);
+                                var Ypos = scrollY;
+                              if(Ypos == 0)
+                                  clearInterval(interval);
+                              }   
+    } 
+    
+</script>
