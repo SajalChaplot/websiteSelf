@@ -405,23 +405,13 @@ background-color: #222;
 
 #otherworks{
     padding: 10%;
-    height:auto;
+    height:10%
 }
 
-#otherworks > a {
-    height:auto;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.projlink:hover{
+    transform:scale(1.1);
+    transition: 0.2s ease-in-out;
 }
-
-
-
-
-
-
-
 
 #contact{
     
