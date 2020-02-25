@@ -207,6 +207,11 @@ background-color: #222;
     
 }
 
+#project_logo{
+    height:80px;
+    width:auto;
+}
+
 #cover-image{
     height:100vh;  
     background-image: url(img/IMG_3928.png);
