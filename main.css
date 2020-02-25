@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    overflow:hidden;
+    overflow-y:hidden;
 }
 
 .slideanim {visibility:hidden;}
