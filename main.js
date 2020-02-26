@@ -16,7 +16,7 @@ $(window).scroll(function(){
         $('#links ul a').css('color','#222');
         }  
         
-        $('#cover-image').css('top', (25 -scrolTop/45) + '%');
+        $('#cover-image').css('top', (10 -scrolTop/45) + '%');
         $('#description').css('top',(50 + scrolTop/50) + '%');
         
         
