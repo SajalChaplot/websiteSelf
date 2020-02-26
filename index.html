@@ -241,6 +241,9 @@
     $(initialize);
     $(window).scroll(function() {
         
+                $('#cover-image').css('top', (25 -scrolTop/45) + '%');
+
+        
         
   $(".slideanim").each(function(){
     var pos = $(this).offset().top;
