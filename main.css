@@ -214,6 +214,10 @@ background-color: #222;
     padding:2%;
 }
 
+.role_duration > h5{
+    font-weight:600;
+}
+
 #project_logo{
     height:50px;
     width:auto;
