@@ -44,9 +44,9 @@
 <style>
     #cover-image{
     background-image: url(img/macbook-mock-dribbble.png);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size:cover ; 
+    background-size: 50% ; 
     height:80%;
     display: inline-block;
     float: right;
@@ -58,6 +58,12 @@
     top:10%;
     right:10px;        
     }    
+    
+    @media(max-width:780px){
+    #cover-image{
+        
+        display: none;
+    }
 </style>
 
 </head>
@@ -71,7 +77,7 @@
             
             <div id="links">
                 <ul>
-                    <a href="#work"><li>WORK</li></a>
+                    <a href="#otherwork"><li>WORK</li></a>
                     <a href="#contact"><li>CONTACT</li></a>
                     <a href="CV_Sajal.pdf" target="_blank"><li>RESUME</li></a>                    
                 </ul>
@@ -81,16 +87,25 @@
     
     <div class="container" id="banner">
         <div id="description" class="col-md-7">
-            <h1 style="font-family:roboto slab;font-weight:900">Techniche.org</h1>
-            <p style="text-align:justify;font-size:21px"> Led a team of 3 developers. Designed and developed participant facing website as well as web tools for managing registration for techniche team. </p>
-           <!-- <button type="button" class="button" > MY WORK </button> -->
-        </div>
-        
-        
-        <div id="cover-image" class="col-md-5">
-           <!-- <img src="img/IMG_3928.png" alt=""> -->
-        </div>
-    </div>
+            <span id="project_logo"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg" alt="company logo"></span><br>
+            <h3 style="font-family:roboto slab;font-weight:900">Techniche.org</h3>
+            <p style="text-align:justify;font-size:21px">Led a team of 3 developers. Designed and developed participant facing website as well as web tools for managing registration for techniche team. </p>
+            
+            <div class="row">
+                <col-md-6 class="role_duration" style="margin-right:5%">
+                    <h5>Role</h5>
+                    <p>UX Research, Interaction Design,<br>
+                    Prototyping, Project Pitch </p>
+                </col-md-6>
+                
+                <col-md-6 class="role_duration" >
+                    <h5>Duration</h5>
+                    <p>6 months</p>            
+                </col-md-6>
+            
+            </div>
+    
+    
     
    <div id="projectdetail" class="container-fluid" style="background-color:#222">
        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/83022570394807.5d2c38996af12.jpg" alt="project-intro">
