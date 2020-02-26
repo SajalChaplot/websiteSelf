@@ -210,6 +210,10 @@ background-color: #222;
     
 }
 
+.role_duration{
+    padding:2%;
+}
+
 #project_logo{
     height:50px;
     width:auto;
@@ -498,11 +502,7 @@ background-color: #222;
         height:auto;
     }
     
-   
-
-
-
-#links > ul > a {
+ #links > ul > a {
     color: #222;
     width:auto;
     height:auto;
@@ -521,6 +521,10 @@ background-color: #222;
     overflow: hidden;
     width:100vw !important;
     max-width: none;
+}
+    
+    .role_duration{
+    padding:4%;
 }
     
     #projects{
