@@ -498,9 +498,7 @@ background-color: #222;
         display: none;
     }
     
-    #description > p{
-        font-size:16px !important;
-    }
+   
     .role_duration > p{
     font-size:16px !important;
 }
