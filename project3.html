@@ -5,7 +5,7 @@
     <title>Sajal Chaplot</title>
     <link rel="shortcut icon" href="img/title%20logo.jpg" type="image/jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="main - Copy.css">
+    <link rel="stylesheet" href="main.css">
     
     <!-- ===================== BOOTSTRAP CSS ======================== -->
     
@@ -29,12 +29,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="main.js" type="text/javascript"></script>
     
+    <!-- ==================== Google Analytics =================== -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158936361-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158936361-1');
+    </script>
+
+    
 <style>
     #cover-image{
-    background-image: url(img/project2.png);
+    background-image: url(img/gar_cover.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 50% ; 
+    background-size: cover; 
     height:80%;
     display: inline-block;
     float: right;
@@ -46,18 +58,26 @@
     top:10%;
     right:10px;        
     }    
+    
+    @media(max-width:780px){
+    #cover-image{
+        
+        display: none;
+    }
 </style>
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar" style="position:fixed" >
+<body>
+    <nav class="navbar" style="position:fixed; width:100vw" >
        <div id="nav-content">
-            <a href="index.html" id="logo">
-                <img src="img/title%20logo.jpg" alt="logo">
-            </a>
+            <a href="http://sajalchaplot.co.in">
+                <div id="logo" style="height:30px;width:30px;">
+                    <img src="img/title%20logo.jpg" alt="logo"> </div>
+           </a>
+            
             <div id="links">
                 <ul>
-                    <a href="#work"><li>WORK</li></a>
+                    <a href="#otherwork"><li>WORK</li></a>
                     <a href="#contact"><li>CONTACT</li></a>
                     <a href="CV_Sajal.pdf" target="_blank"><li>RESUME</li></a>                    
                 </ul>
@@ -67,20 +87,38 @@
     
     <div class="container" id="banner">
         <div id="description" class="col-md-7">
-            <h1 style="font-family:roboto slab;font-weight:900">Infosys Limited</h1>
-            <p style="text-align:justify;font-size:21px">At Infosys, I had the opportunity to work on multiple projects in domains of user research, interaction design, and request for proposals. </p>
-           <!-- <button type="button" class="button" > MY WORK </button> -->
+           <span id="project_logo"> <img src="https://commons.wikimedia.org/wiki/File:InteractionOne_Logo.jpg" alt="company logo"></span><br>
+            <h3 style="font-family:roboto slab;font-weight:900">UX Intern</h3>
+            <p style="text-align:justify;font-size:21px"> Techniche is the tech festival of IIT Guwahati. The website is the digital base on top of which campaigns, branding and marketing works. The previous website design lacked the flexibilty of mobile responsiveness and was slow to be opened on mobile data, leaving many college students frustrated. I took charge as Head of Web operations, designed and developed a mobile first solution with tools for internal team to better manage participation. </p>
+            
+            <div class="row">
+                <col-md-6 class="role_duration" style="margin-right:5%">
+                    <h5>Role</h5>
+                    <p>User Research,Conceptualiation <br>
+                    Interaction Design, Visual Design </p>
+                </col-md-6>
+                
+                <col-md-6 class="role_duration" >
+                    <h5>Duration</h5>
+                    <p>1 months</p>            
+                </col-md-6>
+            
+            </div>
         </div>
-        
-        
         <div id="cover-image" class="col-md-5">
            <!-- <img src="img/IMG_3928.png" alt=""> -->
         </div>
     </div>
     
+    
+    
    <div id="projectdetail" class="container-fluid" style="background-color:#222">
-       <img src="img/Infosys%20Portfolio.jpg" style="width:100%;"alt="">
-       
+       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/1bd6c277783423.5c91c5cd57c22.png" alt="project-intro">
+       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/6d2be677783423.5c91c5cd585e0.png" alt="">
+       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/4a8dc977783423.5c91c5cd57800.png" alt="">
+       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/d7c5b177783423.5c91c5cd58000.png" alt="">
+       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/d7644677783423.5c91c5cd582b4.png" alt="">      
+       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/ac64fd77783423.5c91c5cd573a7.png" alt="">
        <br><br><br><br>   
    </div>
    <br><br><br><br> 
@@ -89,16 +127,19 @@
        <h3>Projects</h3>
        <br>
        <div class="row slideanim">
-           <a href="" class="col-md-4 projlink" >
+           <a href="" class="col-md-3 projlink" >
               <img src="img/2.png" style="width:100%" alt="">
            </a>
            
-           <a href="" class="col-md-4 projlink" >
-              <img src="img/3.png" style="width:100%" alt="">
+           <a href="" class="col-md-3 projlink" >
+              <img src="img/4.png" style="width:100%" alt="">
            </a>
            
-            <a href="" class="col-md-4 projlink" >
-              <img src="img/4.png" style="width:100%" alt="">
+            <a href="" class="col-md-3 projlink" >
+              <img src="img/1.png" style="width:100%" alt="">
+           </a>
+           <a href="" class="col-md-3 projlink" >
+              <img src="img/3.png" style="width:100%" alt="">
            </a>
                     
        </div>
