@@ -550,10 +550,10 @@ background-color: #222;
         float: left;
     }
     #p_description{
-        float: right;
+        
         position:relative;
-        margin-top:200px;
-        text-align: center;
+        margin-top:150px;
+        
     }
     #p_description > h3 {
         font-size: 30px;
