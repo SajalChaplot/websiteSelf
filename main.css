@@ -348,11 +348,7 @@ background-color: #222;
 
 .projectDisplay{
     height:auto;
-    padding:50px;
-    
-    
-    
-    
+    padding:50px;    
 }
 
 
@@ -539,12 +535,14 @@ background-color: #222;
         padding:2px;
             width:100%;
     }
+    .projectDisplay{
+    height:auto;
+    padding:10px;    
+    margin-bottom:0px;    
+}
     
     
-    #projectDisplay{
-        margin-bottom:0px;
-        padding:10px !important;
-    }
+    
     
     #p_thumbnail{
         
