@@ -543,7 +543,7 @@ background-color: #222;
     
     #projectDisplay{
         margin-bottom:0px;
-        padding: none !important;
+        padding:10px !important;
     }
     
     #p_thumbnail{
@@ -558,8 +558,18 @@ background-color: #222;
         text-align: center;
     }
     #p_description > h3 {
-        font-size: 21px;
-        text-align: center;
+        font-size: 30px;
+        text-align: justify;
+    }
+    
+    #p_description > p{
+        text-align:justify;
+    }
+    
+    #p_description > a{
+        float:left;
+        width:50px;
+        text-align:center;
     }
     
     #projectsRow{
