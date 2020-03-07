@@ -566,7 +566,7 @@ background-color: #222;
     
     #p_description > a{
         float:left;
-        width:50px;
+        width:50%;
         text-align:center;
     }
     
