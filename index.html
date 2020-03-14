@@ -240,10 +240,11 @@
 <script>
 
     
-   $(initialize);
-   $(window).scroll(function() { 
-        
-        $('#cover-image').css('top', (30 - scrolTop/65) + '%');
+   $(initialize);    
+ 
+ $(window).scroll(function() {
+     
+     $('#cover-image').css('top', (30 - scrolTop/45) + '%');
         $('#description').css('top',(50 + scrolTop/50) + '%');
         
         
@@ -264,8 +265,6 @@
   });
 }); 
     
-    
-    
 function sscrol(){
        var interval = setInterval(smoothscroll,24);
         function smoothscroll(){window.scrollBy(0,-400);
@@ -274,6 +273,7 @@ function sscrol(){
                                   clearInterval(interval);
                               }   
     }
+    
     
     
  
