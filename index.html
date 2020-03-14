@@ -237,10 +237,12 @@
     
     
 <script>
-    $(initialize);
+
+    
+   $(initialize);
     $(window).scroll(function() {
         
-                        
+        
   $(".slideanim").each(function(){
     var pos = $(this).offset().top;
 
@@ -256,8 +258,6 @@
         
     }
   });
-        
-        $('#cover-image').css('top', (25 - scrolTop/45) + '%');
 }); 
     
 function sscrol(){
@@ -267,7 +267,6 @@ function sscrol(){
                               if(Ypos == 0)
                                   clearInterval(interval);
                               }   
-        
     }
 
 
