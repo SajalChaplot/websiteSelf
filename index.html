@@ -246,19 +246,19 @@
     var pos = $(this).offset().top;
 
     var winTop = $(window).scrollTop();
-    var ps = $('#ps').scrollTop(); 
+    //var ps = $('#ps').scrollTop(); 
     var contact = $('#contact').scrollTop();
     if (pos < winTop + 400) {
       $(this).addClass("slide");
         
-        if(ps < winTop - 500){
-            $('#ps').addClass('ps-fixed');
-        }
+       // if(ps < winTop - 500){
+         //   $('#ps').addClass('ps-fixed');
+        //}
         
     }
   });
         
-        $('#cover-image').css('top', (25 -scrolTop/45) + '%');
+        $('#cover-image').css('top', (25 - scrolTop/45) + '%');
 }); 
     
 function sscrol(){
