@@ -1,8 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
 html{
     scroll-behavior: smooth;
 }
 body{
     overflow-x:hidden;
+    font-family:'Inter',open sans;
+    font-weight:400;
 }
 
 .slideanim {visibility:hidden;}
