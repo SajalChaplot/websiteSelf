@@ -222,7 +222,7 @@ $(window).scroll(function() {
     
 function sscrol(){
        var interval = setInterval(smoothscroll,24);
-        function smoothscroll(){window.scrollBy(0,-400);
+        function smoothscroll(){window.scrollBy(0,-5 + '%');
                                 var Ypos = scrollY;
                               if(Ypos == 0)
                                   clearInterval(interval);
