@@ -115,6 +115,52 @@
     </div>
     
    <div id="projectdetail" class="container-fluid" style="background-color:#222">
+       <div class="container">
+               <div class="row">
+
+                   <br><br><br>
+                   <div class="col-lg-6 col-md-12 col-sm-12">
+                       <h3>Infosys In-Campus Shopping</h3>
+                       <p style="text-align:justify">Imagine living in a campus, 170 times bigger than a football field. Now, suppose you require a packet of milk each day and you will need to walk around 2km just to get that healthy calcium rich drink. That is Infosys's Mysore Campus story. Infoscians, each day, on an average spends 300-350 hours commuting to store,just for a 5min purchase. Add this load to the hectic training routine and the convinience store doesn't feel convinient anymore - Ah! the irony. 
+                       
+                       <br> <br>Team: Me, Surbhi, Apeksha, Divya <br>
+                       Duration : 8 weeks 
+                       </p>
+
+                       <br>
+
+                       <button class="button-white" onclick="disp_vid('#video_embebed')">Watch Case Study -></button><br>
+                       <span style="font-size:10px;">  (Turn on Volume)</span>
+
+
+                   </div>
+                   <div id="lw_image" class="col-md-12 col-lg-6 col-sm-12">
+                       <img src="img/1.png" style="width:100%;" alt="">
+                   </div>
+                   <div id="video_embbed" class="col-lg-6 col-md-12 col-sm-12">
+
+                       <div id="video_container" style="width:inherit;height:auto">
+                               <video width="inherit" height="auto" id="vid_lw" controls>
+                                  <source src="vid/lw.mp4"  type="video/mp4">
+                               </video>
+                        </div>
+                        <div>
+                           <span> <strong>Skip To:   </strong></span>
+                            <span class="vid_skip">
+                                <li onclick="sendVal(this.id)" id="v1">Persona-CJM</li><li>|</li>
+                                <li onclick="sendVal(this.id)" id="v2">Insights</li><li>|</li>
+                                <li onclick="sendVal(this.id)" id="v3">Solution</li><li>|</li>
+                                <li onclick="sendVal(this.id)" id="v4">Impact</li><li>|</li>
+                            </span>
+                       </div>
+
+
+                   </div>
+               </div>
+
+               <br><br>
+       
+       </div>
        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/1400_opt_1/7e1fe992473375.5e6d144f43140.png" style="width:100%;"alt="">
        
        <br><br><br><br>   
@@ -170,6 +216,11 @@
 
 
 <script>
+    
+    var vid_lw = document.getElementById('vid_lw'); 
+    var vid = $('#video_embbed');
+    var lw_img = $('#lw_image');
+    
     $(initialize);
     $(window).scroll(function() {
         
@@ -199,5 +250,7 @@ function sscrol(){
                                   clearInterval(interval);
                               }   
     } 
+    
+ 
     
 </script>
