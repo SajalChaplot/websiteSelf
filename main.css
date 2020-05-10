@@ -11,6 +11,33 @@ body{
     font-family:'Inter', sans-serif;
     
 }
+/*=======New CSS for Project 1=====*/
+video{
+    width:100%;
+    height:auto;
+}
+
+#video_embbed{
+    display: none;
+}
+#lw_image{
+    display:block;
+}
+
+.vid_skip{
+    width:100%;
+    padding:0;
+    
+}
+
+.vid_skip > li{
+    text-decoration: underline;
+    display: inline-block;
+    cursor: pointer;
+    padding:5px;
+    color:red;    
+}
+/* Project 1 new add end */
 
 .slideanim {visibility:hidden;}
 
@@ -93,6 +120,23 @@ img{
         color:white;
         transform: translate3d();
     
+}
+.button-white{
+    width:auto;
+    height:auto;
+    color:white;
+    padding:10px;
+    border:2px solid #fff;
+    border-radius: 5px;
+    background: none;
+    background-position: center;
+    transition: 0.3s ease;    
+}
+
+.button-white:hover{
+   
+        background-color:#fff;
+        color:#222;    
 }
 
 
