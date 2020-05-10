@@ -85,6 +85,35 @@ $(".projectSelectors").click(function(){
     
     console.log('22');
 })
+    
+}
 
+function sendVal(time){
+    
+    if (time=='v1'){
+        
+        vid_lw.currentTime = 67;
+        
+    }
+    if (time=='v2'){
+        
+        vid_lw.currentTime = 256;
+        
+    }
+    if (time=='v3'){
+        
+        vid_lw.currentTime = 340;
+        
+    }
+    if (time=='v4'){
+        
+        vid_lw.currentTime = 628;
+        
+    }   
+}
+
+function disp_vid(){
+    lw_img.css('display','none');
+    vid.css('display','block');
     
 }
