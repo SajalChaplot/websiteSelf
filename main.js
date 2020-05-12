@@ -9,13 +9,13 @@ $(window).scroll(function(){
         if (scrolTop >= window.innerHeight/1.1) {
             $('.navbar').addClass('floatingNavBlack');
             $('#links ul a').css('color','#fff');
-            $('#logo').HTML('<img src="img/logo_white.png" alt="logo">');
+            $('#logo').html('<img src="img/logo_white.png" alt="logo">');
             myfunction();
     } 
     else {
         $('.navbar').removeClass('floatingNavBlack');
         $('#links ul a').css('color','#222');
-        $('#logo').HTML('<img src="img/logo_black.png" alt="logo">');
+        $('#logo').html('<img src="img/logo_black.png" alt="logo">');
         }  
         
         $('#cover-image').css('top', (10 -scrolTop/45) + '%');
