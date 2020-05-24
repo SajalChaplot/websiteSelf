@@ -119,3 +119,7 @@ function disp_vid(){
     vid.css('display','block');
     
 }
+
+function sscrol(){
+     window.scrollTo(0,0);       
+    }  
