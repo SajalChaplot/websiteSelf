@@ -328,7 +328,7 @@ background-color: #222;
     height:100vh;
     position: relative;
     overflow: hidden;
-    width:90vw !important;
+    width:90%;
     max-width: none;
     
 }
