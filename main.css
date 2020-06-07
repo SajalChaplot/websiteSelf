@@ -11,6 +11,84 @@ body{
     font-family:'Inter', sans-serif;
     
 }
+/* New Css for projects */
+p{
+    font-family:'Montserrat', sans-serif;
+    font-size:21px;
+    font-weight: 300;
+    
+}
+
+.strong{
+    font-weight:600;
+    background-color: #fdbd6b;
+    color:#222;
+}
+
+.strong_dehighlight{
+    font-weight:600;
+    
+}
+
+.project_body_black{
+    background-color: #222;
+    
+}
+
+.project_container{
+    width:60%;
+    padding-top:100px;
+    padding-bottom:50px;
+    margin:0 20%;
+    
+}
+
+.black{
+    color:white;
+    
+}
+
+#projectdetail{
+    width:100%;
+    background-color: #222;
+    color:#;
+    
+}
+
+.small-titles{
+    font-family: anton;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.caption{
+    font-size:12px;
+    font-style:italic;
+    text-align: justify;
+    padding:10px 0px;
+}
+
+.center_custom{
+    margin-left:50%;
+    transform: translateX(-50%);
+}
+
+.mycard{
+    padding:20px;
+    height:140px;
+    margin: 30px 0px;
+    background-color:#222;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.5) , -10px -10px 30px rgba(256,256,256,0.05);
+}
+
+.mycard > p{
+    font-size:14px;
+    
+    font-weight: 500;
+}
+
+
+
 /*=======New CSS for Project 1=====*/
 
 .titles{
@@ -589,6 +667,26 @@ background-color: #222;
 
 
 @media(max-width:780px){
+    /* new css for projects  2 June 20 */  
+    .titles{
+        font-size:32px;
+        line-height: normal;
+        
+    }
+    p{
+        font-size:14px !important;
+        text-align: justify;
+    }
+    
+    .project_container{
+    width:90%;
+    padding-top:100px;
+    padding-bottom:50px;
+    margin:0 5%;
+    
+}
+    
+/* ====*/
     #cover-image{
         height:40%;
         width:100%;
