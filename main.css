@@ -87,6 +87,51 @@ p{
     font-weight: 500;
 }
 
+.nav_in_button{
+    width:100px;
+    border-radius:50px;
+    background-color: white;
+    height:auto;
+    padding:5px;
+    border:2px solid #222;
+    background-position: center;
+    transition: 0.3s ease;
+    z-index:998 !important;
+    cursor: pointer;
+    
+    
+}
+
+
+/* added on 12th June 2020 */
+.nav_in{
+    display: none;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding: 0px;
+    z-index:998 !important;
+    
+}
+
+.nav_in_display{
+    display: block;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding: 0px;
+    
+}
+
+.tag > a{
+    color:white;
+}
+.tag > a:hover{
+    color:white;
+    text-decoration: none;
+    
+}
+
 
 
 /*=======New CSS for Project 1=====*/
@@ -428,7 +473,7 @@ background-color: #222;
     border: 2px solid #fff;
     border-radius: 30px;
     padding:5px 20px;
-    background-color:#222;
+    background-color:#222 !important;
     color:white;
     font-size:14px;
     margin-bottom: 10px;
@@ -436,10 +481,11 @@ background-color: #222;
 }
 
 .tag:hover {
-    background-color:#fff;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    transform: scale(1.1);
     transition: 0.4s ease;
-    color:#222;
-    
+    background: #222 !important;
+    color:#222;    
 }
 
 .ps{
