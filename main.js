@@ -123,3 +123,7 @@ function disp_vid(){
 function sscrol(){
      window.scrollTo(0,0);       
     }  
+function nav_in(){
+    $('.nav_in').toggleClass('nav_in_display');
+    
+}
