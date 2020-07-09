@@ -1,0 +1,156 @@
+<div class="container" id="banner">
+        <div id="description" class="col-lg-7 col-md-12">
+            <h1 class="titles">Hi! I am Sajal</h1>
+            <p style="text-align:justify;font-family:inter;font-size:21px"> I am a passionate individual who uses design as a means to transform complex problems into engaging experiences and thereby creating success for businesses. </p>
+          <br>  <a  href="#work" class="button" > MY WORK </a>
+        </div>
+        
+        
+        <div id="cover-image" class="col-md-5">
+           <!-- <img src="img/IMG_3928.png" alt=""> -->
+        </div>
+    </div>
+    
+    
+    <div class="container-fluid" id="work" style="background-color:#222">
+      <div class="container slideanim">
+       <p style="color:white">PROJECT SHOWCASE</p>
+                 <hr style="border-color:white">
+        </div>         
+                  <div class="flex_work slideanim">    
+                                          
+                           <div class="project">
+                              <div class="pd_new">
+                                   <a href="project1.html"> 
+                                    <img src="../img/pr4%20%E2%80%93%201.svg" alt=""> 
+                                  </a>                        
+                              </div>    
+                                                
+                           </div>
+                           <div class="project">
+                              <div class="pd_new">
+                                   <a href="project2.html"> 
+                                    <img src="../img/pr4%20%E2%80%93%202.svg" alt=""> 
+                                  </a>                        
+                              </div>    
+                                                
+                           </div><div class="project">
+                              <div class="pd_new">
+                                   <a href="project3.html"> 
+                                    <img src="../img/pr4%20%E2%80%93%203.svg" alt="">  
+                                  </a>                        
+                              </div>    
+                                                
+                           </div><div class="project">
+                              <div class="pd_new">
+                                   <a href="project4.html"> 
+                                    <img src="../img/pr4%20%E2%80%93%204.svg" alt=""> 
+                                  </a>                        
+                              </div>    
+                                                
+                           </div>      
+                                        
+                   </div> 
+                   <br><br><br>
+                   
+       <!-- <div class="container slideanim">
+               <p style="color:white">EXPLORATIONS</p>
+                 <hr style="border-color:white">
+                 
+                 <div class="flex_work">
+                     <img src="img/1.png" style="width:20%;height:auto;margin:0 2.5%;" alt="">
+                     <img src="img/1.png" style="width:20%;height:auto;margin:0 2.5%;" alt="">
+                     <img src="img/1.png" style="width:20%;height:auto;margin:0 2.5%;" alt="">
+                     <img src="img/1.png" style="width:20%;height:auto;margin:0 2.5%;" alt="">
+                     
+                 </div>
+                 
+        </div> -->
+                   
+       
+                   
+                      
+    
+                   
+                    
+                
+             
+             
+         
+         
+           
+         
+     
+       
+            
+        
+    </div>
+
+    
+    <footer>
+        <div class="container-fluid text-center" id="contact" style="margin-bottom:2px;">
+          
+          <br><br>
+           <h3>Interested? Reach out.</h3>
+           <br>
+           
+            <p><a href="mailto:sajalchaplot@gmail.com" >sajalchaplot@gmail.com</a></p>
+           <p>I would love to hear from you !</p>  
+           <br>
+           
+           <div class="row" >
+              <div class="col-md-12" id="social-media">
+               <a href="https://www.facebook.com/chaplotsajal" target="_blank"><i  class="fab fa-facebook-f"></i></a>
+               <a href="https://twitter.com/sajalchaplot" target="_blank"><i  class="fab fa-twitter"></i></a>
+               <a href="https://www.instagram.com/sajalchaplot/" target="_blank"><i  class="fab fa-instagram"></i></a>
+               <a href="https://medium.com/@sajalchaplot" target="_blank"><i  class="fab fa-medium-m"></i></a>
+               <a href="https://www.linkedin.com/in/sajalchaplot/" target="_blank"><i  class="fab fa-linkedin-in"></i></a>
+               </div>
+              
+              
+              
+              
+               
+           </div>
+           <br>
+           
+           
+                  
+           
+        </div>
+        
+        <div class="container" style="padding:10px auto;height:auto">
+            <span style="padding:5px"><img src="img/outline-copyright-24px.svg" style="color:#222;width:20px;height:20px;vertical-align:center"> Sajal Chaplot 2019</span>
+            <span style="padding:3px;float:right;cursor:pointer;border-bottom: 3px solid #E74D4D" onclick="sscrol()" >Back to Top</span>
+        </div>
+        <br>
+        
+    </footer>
+    
+    
+    
+ 
+
+
+<script>   
+$(initialize);
+$(window).scroll(function() {
+        
+          //var scrolTop = window.scrollTop();       
+  $(".slideanim").each(function(){
+      
+    var pos = $(this).offset().top;
+    var winTop = $(window).scrollTop();
+    var contact = $('#contact').scrollTop();
+    if (pos < winTop + 400) {
+      $(this).addClass("slide");
+        
+    }
+  });
+        
+       // $('#cover-image').css('top', (25 - scrolTop/45) + '%');
+}); 
+    
+    
+  
+</script>
