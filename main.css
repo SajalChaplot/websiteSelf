@@ -86,6 +86,21 @@ p{
     
     font-weight: 500;
 }
+.mycard_white{
+    padding:20px;
+    height:140px;
+    margin: 30px 0px;    
+    box-shadow: 10px 10px 60px rgba(0,0,256,0.05) , -10px -10px 60px rgba(0,0,256,0.05);
+}
+.mycard_white > p{
+    font-size:12px;
+}
+
+.mycard_white > h5 {
+    font-family : anton;
+    color: #8626C3;
+    font-size: 18px;
+}
 
 .nav_in_button{
     width:100px;
