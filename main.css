@@ -78,7 +78,7 @@ ul,li{ font-family:'Montserrat', sans-serif;
 }
 
 #insta > a{
-    padding:5px;
+    
     overflow:hidden;
     width:30vw;
     height:30vw;
@@ -89,6 +89,7 @@ ul,li{ font-family:'Montserrat', sans-serif;
 #insta > a > img{
 
     object-fit: cover;
+    margin-bottom:10px;
 }
 
 .mycard{
