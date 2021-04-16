@@ -80,10 +80,10 @@ ul,li{ font-family:'Montserrat', sans-serif;
 #insta > a{
     padding:5px;
     overflow:hidden;
-    width:30%;
-    max-width:200px;
-    max-heigh:200px;
-    padding:10px;
+    width:30vw;
+    height:30vw;
+    padding:5px;
+    
 }
 
 #insta > a > img{
