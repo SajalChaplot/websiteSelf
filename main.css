@@ -77,6 +77,18 @@ ul,li{ font-family:'Montserrat', sans-serif;
     transform: translateX(-50%);
 }
 
+#insta > a{
+    padding:5px;
+    overflow:hidden;
+    width:30%;
+    padding:10px;
+}
+
+#insta > a > img{
+    width:100%;
+    object-fit: cover;
+}
+
 .mycard{
     padding:20px;
     height:140px;
