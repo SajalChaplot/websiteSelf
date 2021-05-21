@@ -9,8 +9,9 @@ function feed(){
   },
 };
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
+$.ajax(settings, function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+  });
 });
   
 }
