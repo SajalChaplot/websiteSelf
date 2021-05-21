@@ -5,7 +5,9 @@
 </div>
 <script type="text/javascript" src="feed.js"></script>	
 <script type="text/javascript">
-	$('feed');
+	$.ajax(settings).done(function (response) {
+  console.log(response);
+});
 	var userFeed = new Instafeed({
 		get: 'user',
 		target: "insta",
