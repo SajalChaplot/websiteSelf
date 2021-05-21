@@ -7,8 +7,7 @@ var settings = {
   },
 };
 
-$.ajax(settings, function(data, status){
-    alert("Data: " + data + "\nStatus: " + status);
-  });
+$.ajax(settings).done(function (response) {
+  console.log(response);
 });
   
