@@ -1,7 +1,7 @@
 function feed(){
   
   var settings = {
-  "url": "https://api.instagram.com/oauth/authorize?client_id={{insta app id}}&redirect_uri=https://oauth.pstmn.io/v1/callback&scope=user_profile,user_media&response_type=code",
+  "url": "https://api.instagram.com/oauth/authorize?client_id={{insta app id}}&redirect_uri=https://sajalchaplot.co.in/#!/play&scope=user_profile,user_media&response_type=code",
   "method": "GET",
   "timeout": 0,
   "headers": {
