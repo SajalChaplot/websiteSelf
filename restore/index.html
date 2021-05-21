@@ -216,8 +216,11 @@ var settings = {
 $.ajax(settings).done(function (response) {
   console.log(response);
 });
+    
   
-}
+$(document).ajaxStop(function(){
+    console.log('ajax requests sent'});
+    
 $(window).scroll(function() {
         
           //var scrolTop = window.scrollTop();       
