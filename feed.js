@@ -12,7 +12,8 @@ function feedprofile(){
 var url ="https://graph.instagram.com/me/media?fields=id,caption&access_token=IGQVJXdDVFZAlVZAT0J1M3BJYlNXSWpvZADhVQ3UzdWNtcXRzZAEdrdDZANYjhRRExNcVNPUzVicGNkeTNkbmlVUTB5MEZAkYXFkN04tVFJ3eTZADMWdQTHduNVNVZA3ZAIRkFkQy1QZAGxScDVR"
 ;
 $.getJSON(url, function(data, status){
-    console.log("Data: " + data + "\nStatus: " + status);
+	var newData = data.id + data.caption;
+    console.log("Data: " + newData + "\nStatus: " + status);
 });
 userFeed.run();	
 }
