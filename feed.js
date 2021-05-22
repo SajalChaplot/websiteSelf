@@ -14,7 +14,7 @@ var url ="https://graph.instagram.com/me/media?fields=id,caption&access_token=IG
 $.get(url, function(data, status){
     console.log("Data: " + data + "\nStatus: " + status);
 });
-userFeed.run	
+userFeed.run();	
 }
 
 
