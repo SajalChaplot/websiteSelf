@@ -14,13 +14,13 @@ body{
 /* New Css for projects */
 p{
     font-family:'Montserrat', sans-serif;
-    font-size:21px;
-    font-weight: 300;
+    font-size:18px;
+    font-weight: 400;
     
 }
 ul,li{ font-family:'Montserrat', sans-serif;
     font-size:18px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .strong{
