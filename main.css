@@ -180,7 +180,7 @@ img{
     margin:30px;
     background-color:#2b2b2b;
     border-radius:8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.9)
 }
 
 .medium-card img {
@@ -194,9 +194,9 @@ img{
 }
 
 .medium-card-content h3 {
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.2;
-  font-color:#fff;
+  color:#5de7ff;
   text-decoration:none;
 }
 
