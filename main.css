@@ -172,7 +172,7 @@ img{
 }
 
 .medium-card {
-  margin: 0 auto;
+  padding:24px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
@@ -180,18 +180,16 @@ img{
 }
 
 .medium-card img {
-  width: 30%;
+  width: 100%;
   height: auto;
   display: inline-block
 }
 
 .medium-card-content {
-  padding: 1rem;
-  display: inline-block  
+  display: inline-block
 }
 
 .medium-card-content h3 {
-  margin: 0;
   font-size: 1.5rem;
   line-height: 1.2;
   font-color:#fff;
@@ -201,7 +199,7 @@ img{
 
 .medium-card-content p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.5;
   color: #fff;
   text-decoration:none;
