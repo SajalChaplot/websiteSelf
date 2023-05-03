@@ -180,9 +180,9 @@ img{
 }
 
 .medium-card img {
-  width: 100%;
+  width: 180px;
   height: auto;
-  display: inline-block
+  display: inline
 }
 
 .medium-card-content {
@@ -194,7 +194,6 @@ img{
   line-height: 1.2;
   font-color:#fff;
   text-decoration:none;
-  display:inline-block
 }
 
 .medium-card-content p {
@@ -203,7 +202,6 @@ img{
   line-height: 1.5;
   color: #fff;
   text-decoration:none;
-  display:inline-block
 }
 
 
