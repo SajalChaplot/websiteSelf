@@ -171,23 +171,36 @@ img{
     
 }
 
-#medium-card {
-  width: 100%;
+.medium-card {
   max-width: 500px;
-  height: 0;
-  padding-bottom: 75%;
-  position: relative;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   overflow: hidden;
 }
 
-#medium-card iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.medium-card img {
   width: 100%;
-  height: 100%;
-  border: none;
+  height: auto;
+  display: block;
 }
+
+.medium-card-content {
+  padding: 1rem;
+}
+
+.medium-card-content h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.medium-card-content p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 
 
 
