@@ -176,6 +176,7 @@ img{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  background-color:#000
 }
 
 .medium-card img {
@@ -186,7 +187,7 @@ img{
 
 .medium-card-content {
   padding: 1rem;
-  display:inline-block  
+  display: inline-block  
 }
 
 .medium-card-content h3 {
@@ -194,7 +195,8 @@ img{
   font-size: 1.5rem;
   line-height: 1.2;
   font-color:#fff;
-  text-decoration:none
+  text-decoration:none;
+  display:inline-block
 }
 
 .medium-card-content p {
@@ -202,7 +204,8 @@ img{
   font-size: 1rem;
   line-height: 1.5;
   color: #fff;
-  text-decoration:none
+  text-decoration:none;
+  display:inline-block
 }
 
 
